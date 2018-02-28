@@ -1,0 +1,79 @@
+body{
+      background-image: url("img/background.jpg");
+      background-size: 100%;
+    }
+
+    #p1, #cont1{
+      font-size: 50px;
+      color: red;
+      text-align: left;
+      -webkit-text-stroke: 2px black;
+    }
+    #p2, #cont2{
+      font-size: 50px;
+      color: blue;
+      text-align: right;
+      -webkit-text-stroke: 2px black;
+    }
+
+    .circle-button{
+      margin: 60px auto;
+      width: 250px;
+      height: 250px;
+      background-color: blue;
+      border-radius: 100%;
+      box-shadow: 0 10px 10px rgba(0,0,0,.5);
+    }
+
+    .Reloj
+    {
+      text-align: center;
+      color: yellow;
+      font-size: 50px;
+      background-color: black;
+      border-style: solid;
+      border-color: black;
+      margin: 0px 45%;
+    }
+
+    .Instrucciones
+    {
+      text-align: center;
+      color: yellow;
+/*      font-size: 10px;*/
+      background-color: black;
+      border-style: solid;
+      border-color: black;
+      margin: 0px 30%;
+    }
+
+    .Marcador
+    {
+      text-align: center;
+      font-size: 50px;
+      background-color: black;
+      border-style: solid;
+      border-color: black;
+      margin: 0px 45%;
+    }
+
+    #final{
+      display: none;
+    }
+
+     #finalp1{
+      color: red;
+    }
+
+    #finalp2{
+      color:blue;
+    }
+
+    .Resultado {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: black;
+      text-align: center;
+}
